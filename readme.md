@@ -34,4 +34,4 @@ window.addEventListener('yt-navigate-start', home)
 
 *Developed by [gtxpit](https://github.com/gtxpit) — 2026*
 
-d
+
