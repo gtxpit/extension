@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Block Shorts!",
+  "version": "1.0",
+  "description": "Скрывает YouTube Shorts из ленты и меню.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "run_at": "document_start",
+      "js": [
+        "main.js"
+      ]
+    }
+  ],
+  "action":{
+  "default_popup": "popup.html",
+   "default_icon": "icon.png"
+  }
+}
