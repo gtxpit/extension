@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Block Shorts!",
   "version": "1.0",
-  "description": "Скрывает YouTube Shorts из ленты и меню.",
+  "description": "Расширение для блокировки доступа к youtube shorts",
   "content_scripts": [
     {
       "matches": [
